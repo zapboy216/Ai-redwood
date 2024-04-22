@@ -12,7 +12,7 @@ import Routes from 'src/Routes'
 import './index.css'
 
 const App = () => (
-  <CopilotKit url="/api/copilotkit/">
+  <CopilotKit url="src/api/copilotkit/">
     <CopilotSidebar
       labels={{
         title: 'Your Assistant',
