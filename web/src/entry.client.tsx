@@ -1,3 +1,5 @@
+// Entry.client.tsx
+
 import { hydrateRoot, createRoot } from 'react-dom/client'
 
 import App from './App'
