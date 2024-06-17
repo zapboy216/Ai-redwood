@@ -12,7 +12,7 @@ import '@copilotkit/react-ui/styles.css' // Import the CSS for CopilotKit
 import './index.css'
 
 const App = () => (
-  <CopilotKit url="api/copilotkit/">
+  <CopilotKit url="api/copilotkit">
     <CopilotSidebar>
       <FatalErrorBoundary page={FatalErrorPage}>
         <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
